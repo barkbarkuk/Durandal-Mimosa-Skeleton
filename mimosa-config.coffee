@@ -13,6 +13,7 @@ exports.config =
     'bower'
     'csslint'
     'jshint'
+    'web-package'
     'copy'
   ]
 
@@ -28,6 +29,9 @@ exports.config =
     patterns: ['app/**/*.js', 'vendor/durandal/**/*.js']
 
   bower:
+    bowerDir:
+        path:".mimosa/bower_components"
+        clean:false
     copy:
       mainOverrides:
         "knockout.js":["knockout.js","knockout.debug.js"]
@@ -64,12 +68,10 @@ exports.config =
     ]
 
   server:
-    defaultServer:
-      enabled: true
-      onePager: true
+    path: "server.js"
     views:
-      compileWith: 'html'
-      extension: 'html'
+      compileWith: 'handlebars'
+      extension: 'hbs'
 
   require:
     optimize:

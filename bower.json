@@ -1,5 +1,5 @@
 {
-  "name": "Durandal Mimosa Skeleton",
+  "name": "Durandal Mimosa Node Skeleton",
   "version": "2.1.0",
   "dependencies": {
     "jquery":"1.9.1",
