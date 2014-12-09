@@ -33,6 +33,7 @@
   "assets\\javascripts\\vendor\\knockout.js\\knockout.js",
   "assets\\javascripts\\vendor\\requirejs-text\\text.js",
   "assets\\javascripts\\vendor\\requirejs\\require.js",
+  "assets\\stylesheets\\bootstrap.css.map",
   "assets\\stylesheets\\vendor\\bootstrap\\bootstrap.css",
   "assets\\stylesheets\\vendor\\durandal\\durandal.css",
   "assets\\stylesheets\\vendor\\font-awesome\\font-awesome.css"

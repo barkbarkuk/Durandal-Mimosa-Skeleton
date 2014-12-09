@@ -29,9 +29,10 @@ exports.config =
     patterns: ['app/**/*.js', 'vendor/durandal/**/*.js']
 
   bower:
-    bowerDir:
-        path:".mimosa/bower_components"
-        clean:false
+# Uncomment below to see files brought in by bower for adjusting copy.mainOverrides
+#    bowerDir:
+#        path:".mimosa/bower_components"
+#        clean:false
     copy:
       mainOverrides:
         "knockout.js":["knockout.js","knockout.debug.js"]
@@ -43,6 +44,7 @@ exports.config =
         "bootstrap": [
            "dist/js/bootstrap.js"
            "dist/css/bootstrap.css"
+           { "dist/css/bootstrap.css.map": "../../stylesheets/bootstrap.css.map" }
            { "dist/fonts": "../../fonts" }
         ]
         "durandal": [
