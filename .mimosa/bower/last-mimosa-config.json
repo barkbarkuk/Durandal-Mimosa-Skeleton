@@ -42,6 +42,9 @@
         "img": "../../images",
         "js": "durandal",
         "css": "durandal"
+      },
+      "almond-custom": {
+        "almond.js": "almond-custom.js"
       }
     },
     "mainOverrides": {
@@ -73,6 +76,11 @@
           "img": "../../images",
           "js": "durandal",
           "css": "durandal"
+        }
+      ],
+      "almond-custom": [
+        {
+          "almond.js": "almond-custom.js"
         }
       ]
     },

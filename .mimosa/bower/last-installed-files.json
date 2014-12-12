@@ -11,6 +11,7 @@
   "assets\\images\\icon.png",
   "assets\\images\\ios-startup-image-landscape.png",
   "assets\\images\\ios-startup-image-portrait.png",
+  "assets\\javascripts\\vendor\\almond-custom.js",
   "assets\\javascripts\\vendor\\bootstrap\\bootstrap.js",
   "assets\\javascripts\\vendor\\durandal\\activator.js",
   "assets\\javascripts\\vendor\\durandal\\app.js",
