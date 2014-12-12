@@ -1,0 +1,85 @@
+{
+  "watch": true,
+  "bowerDir": {
+    "path": ".mimosa/bower/bower_components",
+    "clean": true,
+    "pathFull": ""
+  },
+  "copy": {
+    "enabled": true,
+    "trackChanges": true,
+    "outRoot": "",
+    "defaultStrategy": "packageRoot",
+    "strategy": {},
+    "forceLatest": true,
+    "exclude": [],
+    "unknownMainFullCopy": false,
+    "overridesArrays": {
+      "knockout.js": [
+        "knockout.js",
+        "knockout.debug.js"
+      ],
+      "font-awesome": [
+        "css/font-awesome.css"
+      ],
+      "jquery": [
+        "jquery.js"
+      ],
+      "bootstrap": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css"
+      ]
+    },
+    "overridesObjects": {
+      "font-awesome": {
+        "fonts": "../../fonts"
+      },
+      "bootstrap": {
+        "dist/fonts": "../../fonts"
+      },
+      "durandal": {
+        "img": "../../images",
+        "js": "durandal",
+        "css": "durandal"
+      },
+      "almond-custom": {
+        "almond.js": "almond-custom.js"
+      }
+    },
+    "mainOverrides": {
+      "knockout.js": [
+        "knockout.js",
+        "knockout.debug.js"
+      ],
+      "font-awesome": [
+        {
+          "fonts": "../../fonts"
+        },
+        "css/font-awesome.css"
+      ],
+      "jquery": [
+        "jquery.js"
+      ],
+      "bootstrap": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        {
+          "dist/fonts": "../../fonts"
+        }
+      ],
+      "durandal": [
+        {
+          "img": "../../images",
+          "js": "durandal",
+          "css": "durandal"
+        }
+      ],
+      "almond-custom": [
+        {
+          "almond.js": "almond-custom.js"
+        }
+      ]
+    },
+    "pathMod": null
+  }
+}
